@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Globally() {
     return(
-        <div className="h-screen relative bg-white">
+        <div className="relative bg-white">
             <div className="grid h-full py-24 px-32">
                 <div className="grid h-full justify-items-center content-center space-y-10">
                     <h1 className="font-bold text-black text-3xl text-center">

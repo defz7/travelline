@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'landingpage': "url('/Images/Home/Rectangle 4.svg)",
+        'landingpage': "url('/Images/Rectangle 4 (1).png')",
         'button': "url('/Images/Home/Group 4.svg)",
       },
       colors: {

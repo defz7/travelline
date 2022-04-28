@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Tour() {
     return(
-        <div className="h-screen relative bg-white">
+        <div className="relative bg-white">
             <div className="grid h-full py-24 px-32">
                 <div className="h-full justify-items-center content-center">
                     <div className="flex">
