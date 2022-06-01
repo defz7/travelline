@@ -4,7 +4,7 @@ import Link from "next/link";
 function Landingpage() {
     return(
         <div className="h-screen relative bg-cstmyellow">
-            <div className="h-full grid grid-cols-2 content-center py-24 px-32">
+            <div className="h-full grid grid-cols-2 content-center px-16 xl:px-32 2xl:px-52">
                 <div className="h-full gap-5 2xl:gap-11 content-center grid">
                     <h1 className="text-4xl xl:text-5xl 2xl:text-7xl text-black font-poppinsbold leading-[3.5rem] xl:leading-[4rem] 2xl:leading-[6rem] font-bold">
                         <span className="text-brownfont">
@@ -23,10 +23,9 @@ function Landingpage() {
                         </Link>
                         <Link href="/">
                             <a className="flex justify-center items-center self-center">
-                                <Image
+                                <img
                                 src="/Images/Home/Group 4.svg"
-                                width={100}
-                                height={100}
+                                className="w-1/2"
                                 />
                             </a>
                         </Link>
