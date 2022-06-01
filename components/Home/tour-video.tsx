@@ -20,7 +20,7 @@ function Tour() {
                             </p>
                             <Link href="/">
                                 <a className="flex cursor-pointer">
-                                    <p className="hidden lg:block text-base 2xl:text-lg text-brownfont">
+                                    <p className="hidden lg:block underline-offset-2 text-base 2xl:text-base text-brownfont">
                                         Learn more
                                     </p>
                                 </a>

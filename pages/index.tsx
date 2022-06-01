@@ -4,6 +4,7 @@ import { Promotion } from '../components/Home/promotion';
 import { Globally } from '../components/Home/globally';
 import { Tour } from '../components/Home/tour-video';
 import { Team } from '../components/Home/team';
+import { ChooseUs } from '../components/Home/choose-us';
 
 const Home: NextPage = () => {
   return (
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
       <Globally/>
       <Tour/>
       <Team/>
+      <ChooseUs/>
     </>
   );
 };
