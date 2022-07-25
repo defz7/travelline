@@ -5,6 +5,8 @@ import { Globally } from '../components/Home/globally';
 import { Tour } from '../components/Home/tour-video';
 import { Team } from '../components/Home/team';
 import { ChooseUs } from '../components/Home/choose-us';
+import { Testimony } from '../components/Home/testimony';
+import { Footer } from '../components/Layout/footer';
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +17,8 @@ const Home: NextPage = () => {
       <Tour/>
       <Team/>
       <ChooseUs/>
+      <Testimony/>
+      <Footer/>
     </>
   );
 };

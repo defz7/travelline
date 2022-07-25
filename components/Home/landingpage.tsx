@@ -6,7 +6,7 @@ function Landingpage() {
         <div className="h-screen relative bg-cstmyellow">
             <div className="h-full grid grid-cols-2 content-center px-16 xl:px-32 2xl:px-52">
                 <div className="h-full gap-5 2xl:gap-11 content-center grid">
-                    <h1 className="text-4xl xl:text-5xl 2xl:text-7xl text-black font-poppinsbold leading-[3.5rem] xl:leading-[4rem] 2xl:leading-[6rem] font-bold">
+                    <h1 className="text-4xl xl:text-5xl 2xl:text-7xl text-black leading-[3.5rem] xl:leading-[4rem] 2xl:leading-[6rem] font-bold">
                         <span className="text-brownfont">
                             Life is a journey
                         </span>
@@ -17,19 +17,19 @@ function Landingpage() {
                     </p>
                     <div className="flex gap-5">
                         <Link href="/">
-                            <a className="flex justify-center items-center self-center w-36 2xl:w-60 cursor-pointer text-white border-white bg-cstmdarkbrown hover:bg-cstmdarkerbrown hover:text-white py-2 2xl:py-3 rounded-2xl text-xs xl:text-xl font-medium">
+                            <a className="flex justify-center items-center self-center w-36 2xl:w-60 cursor-pointer text-white border-white bg-cstmdarkbrown hover:bg-cstmdarkerbrown hover:scale-110 duration-300 py-2 2xl:py-3 rounded-[80px] text-xs xl:text-xl font-medium">
                                 Explore Destinations
                             </a>
                         </Link>
                         <Link href="/">
-                            <a className="flex justify-center items-center self-center">
+                            <a className="hidden flex justify-center items-center self-center">
                                 <img
                                 src="/Images/Home/Group 4.svg"
                                 className="w-1/2"
                                 />
                             </a>
                         </Link>
-                        <p className="flex items-center self-center font-normal text-xs 2xl:text-base">
+                        <p className="hidden flex items-center self-center font-normal text-xs 2xl:text-base">
                             Watch how it works
                         </p>
                     </div>
@@ -41,7 +41,7 @@ function Landingpage() {
                     height={745}
                     />
                     <Link href="/">
-                        <a className="flex w-64 bg-white bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-50 rounded-xl p-6 z-10">
+                        <a className=" hidden flex w-64 bg-white bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-50 rounded-xl p-6 z-10">
                             <Image
                             src="/Images/Home/Group 6.svg"
                             width={40}

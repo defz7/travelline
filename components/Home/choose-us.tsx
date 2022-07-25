@@ -3,7 +3,7 @@ function ChooseUs() {
     return(
         <div className="relative bg-white">
             <div className="grid h-full xl:py-24 px-16 xl:px-32 2xl:px-52">
-                <div className="grid h-full justify-items-center content-center space-y-10">
+                <div className="grid justify-items-center content-center space-y-10">
                     <h1 className="font-bold text-black text-2xl 2xl:text-3xl text-center">
                         <span className="font-bold text-brownfont">
                             Why
@@ -16,7 +16,39 @@ function ChooseUs() {
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                         </p>
-                    </div>   
+                    </div> 
+                    <div className="flex flex-wrap justify-center gap-[60px]">
+                        <div className="p-6 overflow-hidden rounded-lg shadow-lg bg-white max-w-sm">
+                            <div className="-mt-16 w-full flex justify-center">
+                                <img
+                                    src="/Images/Home/Group 5436.svg"
+                                    className="grid justify-self-center z-10 w-[100px] h-[100px] absolute"
+                                />
+                            </div>
+                            <p className="font-semibold text-center text-xl pb-4 pt-24 px-3 text-brownfont">Handpicked Hotels</p>
+                            <p className="px-3">Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa</p>
+                        </div>
+                        <div className="p-6 rounded-lg shadow-lg bg-white max-w-sm">
+                            <div className="-mt-16 w-full flex justify-center">
+                                <img
+                                    src="/Images/Home/Group 5437.svg"
+                                    className="grid justify-self-center z-10 w-[100px] h-[100px] absolute"
+                                />
+                            </div>
+                            <p className="font-semibold text-center text-xl pb-4 pt-24 px-3 text-brownfont">World Class Service</p>
+                            <p className="px-3">Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa</p>
+                        </div>
+                        <div className="p-6 rounded-lg shadow-lg bg-white max-w-sm">
+                            <div className="-mt-16 w-full flex justify-center">
+                                <img
+                                    src="/Images/Home/Group 5438.svg"
+                                    className="grid justify-self-center z-10 w-[100px] h-[100px] absolute"
+                                />
+                            </div>
+                            <p className="font-semibold text-center text-xl pb-4 pt-24 px-3 text-brownfont">Best Price Guarantee</p>
+                            <p className="px-3">Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa</p>
+                        </div>
+                    </div>  
                 </div>
             </div>
         </div>

@@ -19,7 +19,7 @@ function Tour() {
                                     when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                             </p>
                             <Link href="/">
-                                <a className="flex cursor-pointer">
+                                <a className="flex cursor-pointer max-w-[90px]">
                                     <p className="hidden lg:block underline-offset-2 text-base 2xl:text-base text-brownfont">
                                         Learn more
                                     </p>

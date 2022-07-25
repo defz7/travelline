@@ -22,28 +22,25 @@ function Promotion() {
                     <div className="grid grid-cols-3">
                         <Link href="/">
                             <a className="flex justify-center cursor-pointer ">
-                                <Image
-                                src="/Images/Home/Mask Group (3).svg"
-                                width={450}
-                                height={430}
-                                />
-                            </a>
-                        </Link>
-                        <Link href="/">
-                            <a className="flex justify-center cursor-pointer ">
-                                <Image
+                                <img
                                 src="/Images/Home/Mask Group (4).svg"
-                                width={450}
-                                height={430}
+                                className="w-[450px] h-[430px]"
                                 />
                             </a>
                         </Link>
                         <Link href="/">
                             <a className="flex justify-center cursor-pointer ">
-                                <Image
-                                src="/Images/Home/Mask Group (5).svg"
-                                width={450}
-                                height={430}
+                                <img
+                                src="/Images/Home/Mask Group (3).svg"
+                                className="w-[450px] h-[430px]"
+                                />
+                            </a>
+                        </Link>
+                        <Link href="/">
+                            <a className="flex justify-center cursor-pointer ">
+                                <img
+                                src="/Images/Home/Mask Group (4).svg"
+                                className="w-[450px] h-[430px]"
                                 />
                             </a>
                         </Link>
