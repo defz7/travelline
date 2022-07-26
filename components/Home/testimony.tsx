@@ -6,16 +6,16 @@ function Testimony() {
                     <div className="lg:max-w-lg 2xl:max-w-xl space-y-3">
                         <div className="flex items-center">
                             <div className="border border-[#2C2D32] w-[50px] h-0 mr-3"></div>
-                            <p className="uppercase">Testimonial</p>
+                            <p className="font-nunito uppercase">Testimonial</p>
                         </div>
-                        <p className="text-3xl font-bold">What Customers Say?</p>
-                        <p className="text-base pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        <p className="text-3xl font-montserratBold">What Customers Say?</p>
+                        <p className="font-nunito text-base pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                     <div className="grid content-center justify-items-center">
                         <div className="flex items-center p-8 pb-3 rounded-2xl shadow-lg bg-gray-100 max-w-xl">
                             <div className="grid content-center">
-                                <p className="max-w-xs">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry."</p>
+                                <p className="font-nunitoBold max-w-xs">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry."</p>
                                 <div className="flex items-center justify-center">
                                     <img
                                         src="/Images/Home/Group 5436.svg"
@@ -23,8 +23,8 @@ function Testimony() {
                                         alt="profile picture"
                                     />
                                     <div className="grid">
-                                        <p>Fay Nakila</p>
-                                        <p className="text-slate-500">Traveller</p>
+                                        <p className="font-nunitoSemi">Fay Nakila</p>
+                                        <p className="font-nunito text-slate-500">Traveller</p>
                                     </div>
                                 </div>
                             </div>

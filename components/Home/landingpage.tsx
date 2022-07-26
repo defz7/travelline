@@ -6,18 +6,18 @@ function Landingpage() {
         <div className="h-screen relative bg-cstmyellow">
             <div className="h-full grid grid-cols-2 content-center px-16 xl:px-32 2xl:px-52">
                 <div className="h-full gap-5 2xl:gap-11 content-center grid">
-                    <h1 className="text-4xl xl:text-5xl 2xl:text-7xl text-black leading-[3.5rem] xl:leading-[4rem] 2xl:leading-[6rem] font-bold">
+                    <h1 className="font-montserratBold text-4xl xl:text-5xl 2xl:text-7xl text-black leading-[3.5rem] xl:leading-[4rem] 2xl:leading-[6rem]">
                         <span className="text-brownfont">
                             Life is a journey
                         </span>
                             , not a destination
                     </h1>
-                    <p className="text-[14px] xl:text-[16px] 2xl:text-2xl text-black">
+                    <p className="font-nunitoSemi text-[14px] xl:text-[16px] 2xl:text-2xl text-black">
                         Let's start your journey with us, your dream will come true
                     </p>
                     <div className="flex gap-5">
                         <Link href="/">
-                            <a className="flex justify-center items-center self-center w-36 2xl:w-60 cursor-pointer text-white border-white bg-cstmdarkbrown hover:bg-cstmdarkerbrown hover:scale-110 duration-300 py-2 2xl:py-3 rounded-[80px] text-xs xl:text-xl font-medium">
+                            <a className="font-nunitoSemi flex justify-center items-center self-center w-36 2xl:w-60 cursor-pointer text-white border-white bg-cstmdarkbrown hover:bg-cstmdarkerbrown hover:scale-110 duration-300 py-2 2xl:py-3 rounded-[80px] text-xs xl:text-xl font-medium">
                                 Explore Destinations
                             </a>
                         </Link>

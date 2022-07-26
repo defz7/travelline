@@ -2,6 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: "Montserrat";
+    src: url("/Fonts/Montserrat/Montserrat-Regular.ttf");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "MontserratBold";
+    font-weight: "";
+    src: url("/Fonts/Montserrat/Montserrat-Bold.ttf");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Nunito";
+    src: url("/Fonts/Nunito/Nunito-Regular.ttf");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "NunitoSemi";
+    src: url("/Fonts/Nunito/Nunito-SemiBold.ttf");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "NunitoBold";
+    src: url("/Fonts/Nunito/Nunito-Bold.ttf");
+    font-display: swap;
+  }
+}
+
 html,
 body {
   padding: 0;

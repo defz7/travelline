@@ -17,8 +17,11 @@ module.exports = {
         lightfont: "#595959",
       },
       fontFamily: {
-        montserrat: ["Montserrat-Bold"],
-        nunito: ["Nunito-Regular"],
+        montserrat: ["Montserrat"],
+        montserratBold: ["MontserratBold"],
+        nunito: ["Nunito"],
+        nunitoSemi: ["NunitoSemi"],
+        nunitoBold: ["NunitoBold"],
       },
     },
   },
