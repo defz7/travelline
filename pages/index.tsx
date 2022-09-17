@@ -7,6 +7,7 @@ import { Team } from '../components/Home/team';
 import { ChooseUs } from '../components/Home/choose-us';
 import { Testimony } from '../components/Home/testimony';
 import { Footer } from '../components/Layout/footer';
+import { LatestNews } from '../components/Home/latestNews';
 
 const Home: NextPage = () => {
   return (
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
       <Team/>
       <ChooseUs/>
       <Testimony/>
+      <LatestNews />
       <Footer/>
     </>
   );
