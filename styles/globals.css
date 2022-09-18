@@ -33,6 +33,30 @@
     src: url("/Fonts/Nunito/Nunito-Bold.ttf");
     font-display: swap;
   }
+
+  @font-face {
+    font-family: "PoppinsRegular";
+    src: url("/Fonts/Poppins/Poppins-Regular.ttf");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "PoppinsMedium";
+    src: url("/Fonts/Poppins/Poppins-Medium.ttf");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "PoppinsSemibold";
+    src: url("/Fonts/Poppins/Poppins-SemiBold.ttf");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "PoppinsBold";
+    src: url("/Fonts/Poppins/Poppins-Bold.ttf");
+    font-display: swap;
+  }
 }
 
 html,
