@@ -22,6 +22,7 @@ module.exports = {
         nunito: ["Nunito"],
         nunitoSemi: ["NunitoSemi"],
         nunitoBold: ["NunitoBold"],
+        poppinsLight: ["PoppinsLight"],
         poppinsRegular: ["PoppinsRegular"],
         poppinsMedium: ["PoppinsMedium"],
         poppinsSemiBold: ["PoppinsSemiBold"],

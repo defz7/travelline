@@ -35,6 +35,12 @@
   }
 
   @font-face {
+    font-family: "PoppinsLight";
+    src: url("/Fonts/Poppins/Poppins-Light.ttf");
+    font-display: swap;
+  }
+
+  @font-face {
     font-family: "PoppinsRegular";
     src: url("/Fonts/Poppins/Poppins-Regular.ttf");
     font-display: swap;
