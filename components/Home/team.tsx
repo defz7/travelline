@@ -4,8 +4,8 @@ function Team() {
         <div className="relative bg-white">
             <div className="grid h-full py-24 px-16 xl:px-32 2xl:px-52">
                 <div className="grid h-full justify-items-center content-center space-y-10">
-                    <h1 className="font-montserratBold text-black text-2xl 2xl:text-3xl text-center">
-                        <span className="font-bold text-brownfont">
+                    <h1 className="font-poppinsBold text-black text-2xl 2xl:text-3xl text-center">
+                        <span className="text-brownfont">
                             Our
                         </span> {""}
                             Team
@@ -23,7 +23,7 @@ function Team() {
                         className="w-10/12 justify-self-center"
                         />
                         <div className="space-y-6">
-                            <h1 className="font-montserratBold text-black text-2xl 2xl:text-2xl text-left">
+                            <h1 className="font-poppinsBold text-black text-2xl 2xl:text-2xl text-left">
                                     Our {""}
                                 <span className="text-brownfont">
                                     team is the secret 

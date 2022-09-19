@@ -4,8 +4,8 @@ function LatestNews() {
             <div className="grid py-24 px-16 xl:px-32 2xl:px-52">
                 <div className="grid xl:container xl:mx-auto">
                     <div className="grid justify-items-center space-y-5 font-nunito">
-                        <h2 className="font-nunitoBold text-brownfont text-2xl 2xl:text-3xl">
-                            Lastest News and Resources
+                        <h2 className="font-poppinsBold text-brownfont text-2xl 2xl:text-3xl">
+                            Latest News and Resources
                         </h2>
                         <p className="text-base 2xl:text-xl py-3">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -19,7 +19,7 @@ function LatestNews() {
                                 <div className="flex justify-center bg-[#F0C53E] w-[100px] py-1 rounded-full font-nunitoBold text-base uppercase">
                                     News
                                 </div>
-                                <h3 className="font-nunitoBold text-2xl text-brownfont">
+                                <h3 className="font-poppinsSemiBold text-2xl text-brownfont">
                                     Where does it come from?
                                 </h3>
                                 <p className="font-nunito text-lg">
@@ -36,7 +36,7 @@ function LatestNews() {
                                         className="w-[280px] h-[180px]"
                                     />
                                     <div className="grid space-y-5">
-                                        <h3 className="font-nunitoBold text-2xl text-brownfont">
+                                        <h3 className="font-poppinsSemiBold text-2xl text-brownfont">
                                             Where does it come from?
                                         </h3>
                                         <p className="font-nunito text-lg">
@@ -50,7 +50,7 @@ function LatestNews() {
                                         className="w-[280px] h-[180px]"
                                     />
                                     <div className="grid space-y-5">
-                                        <h3 className="font-nunitoBold text-2xl text-brownfont">
+                                        <h3 className="font-poppinsSemiBold text-2xl text-brownfont">
                                             Where does it come from?
                                         </h3>
                                         <p className="font-nunito text-lg">
@@ -64,7 +64,7 @@ function LatestNews() {
                                         className="w-[280px] h-[180px]"
                                     />
                                     <div className="grid space-y-5">
-                                        <h3 className="font-nunitoBold text-2xl text-brownfont">
+                                        <h3 className="font-poppinsSemiBold text-2xl text-brownfont">
                                             Where does it come from?
                                         </h3>
                                         <p className="font-nunito text-lg">

@@ -12,7 +12,7 @@ function Testimony() {
                                 Testimonial
                             </p>
                         </div>
-                        <p className="text-3xl font-montserratBold">
+                        <p className="text-3xl font-poppinsBold">
                             What Customers Say?
                         </p>
                         <p className="font-nunito text-base py-3">
@@ -41,10 +41,10 @@ function Testimony() {
                                         alt="profile picture"
                                     />
                                     <div className="grid">
-                                        <p className="font-nunitoSemi">
+                                        <p className="font-poppinsSemiBold">
                                             Fay Nakila
                                         </p>
-                                        <p className="font-nunito text-slate-500">
+                                        <p className="font-poppinsRegular text-slate-500">
                                             Traveller
                                         </p>
                                     </div>

@@ -6,7 +6,7 @@ function Landingpage() {
         <div className="w-full h-full px-16 xl:px-32 2xl:px-52 py-52 bg-cstmyellow">
             <div className="grid grid-cols-2 gap-x-20 content-center xl:container xl:mx-auto">
                 <div className="h-full gap-5 2xl:gap-11 content-center grid">
-                    <h1 className="font-montserratBold text-4xl xl:text-5xl 2xl:text-7xl text-black leading-[3.5rem] xl:leading-[4rem] 2xl:leading-[6rem]">
+                    <h1 className="font-poppinsBold text-4xl xl:text-5xl 2xl:text-7xl text-black leading-[3.5rem] xl:leading-[4rem] 2xl:leading-[6rem]">
                         <span className="text-brownfont">
                             Life is a journey
                         </span>

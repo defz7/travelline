@@ -7,8 +7,8 @@ function Tour() {
                 <div className="h-full justify-items-center content-center">
                     <div className="lg:flex">
                         <div className="lg:w-3/4 lg:pr-10 space-y-10">
-                            <h1 className="font-montserratBold text-black text-2xl 2xl:text-3xl text-center lg:text-left">
-                                <span className="font-bold text-brownfont">
+                            <h1 className="font-poppinsBold text-black text-2xl 2xl:text-3xl text-center lg:text-left">
+                                <span className="text-brownfont">
                                     Watch
                                 </span> {""}
                                     Our Latest Tour
