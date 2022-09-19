@@ -8,10 +8,12 @@ import { ChooseUs } from '../components/Home/choose-us';
 import { Testimony } from '../components/Home/testimony';
 import { Footer } from '../components/Layout/footer';
 import { LatestNews } from '../components/Home/latestNews';
+import { Navbar } from '../components/Layout/navbar';
 
 const Home: NextPage = () => {
   return (
     <>
+      <Navbar />
       <Landingpage/>
       <Promotion/>
       <Globally/>
