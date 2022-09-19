@@ -4,13 +4,13 @@ function LatestNews() {
             <div className="grid py-24 px-16 xl:px-32 2xl:px-52">
                 <div className="grid xl:container xl:mx-auto">
                     <div className="grid justify-items-center space-y-5 font-nunito">
-                        <h2 className="font-poppinsBold text-brownfont text-2xl 2xl:text-3xl">
+                        <h2 className="font-poppinsBold text-brownfont text-2xl 2xl:text-3xl text-center">
                             Latest News and Resources
                         </h2>
-                        <p className="text-base 2xl:text-xl py-3">
+                        <p className="text-base 2xl:text-xl text-center">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         </p>
-                        <div className="grid lg:flex items-start justify-between space-x-10 space-y-20 lg:space-y-0 pt-16">
+                        <div className="grid lg:flex items-start justify-between gap-x-10 space-y-20 lg:space-y-0 pt-10">
                             <div className="grid space-y-5 cursor-pointer">
                                 <img
                                     src="/Images/Home/Group 40 (1).svg"
@@ -29,14 +29,14 @@ function LatestNews() {
                                     Read more
                                 </a>
                             </div>
-                            <div className="grid justify-items-center space-y-10">
-                                <div className="flex items-center space-x-7 cursor-pointer">
+                            <div className="grid justify-items-center space-y-14 md:space-y-10">
+                                <div className="grid md:flex items-center gap-x-7 cursor-pointer">
                                     <img
                                         src="/Images/Home/Rectangle 33 (1).svg"
-                                        className="w-[280px] h-[180px]"
+                                        className="w-full h-full md:w-[280px] md:h-[180px]"
                                     />
                                     <div className="grid space-y-5">
-                                        <h3 className="font-poppinsSemiBold text-2xl text-brownfont">
+                                        <h3 className="font-poppinsSemiBold text-2xl text-brownfont pt-5 md:pt-0">
                                             Where does it come from?
                                         </h3>
                                         <p className="font-nunito text-lg">
@@ -44,13 +44,13 @@ function LatestNews() {
                                         </p>
                                     </div>
                                 </div>
-                                <div className="flex items-center space-x-7 cursor-pointer">
+                                <div className="grid md:flex items-center gap-x-7 cursor-pointer">
                                     <img
                                         src="/Images/Home/Rectangle 34.svg"
-                                        className="w-[280px] h-[180px]"
+                                        className="w-full h-full md:w-[280px] md:h-[180px]"
                                     />
                                     <div className="grid space-y-5">
-                                        <h3 className="font-poppinsSemiBold text-2xl text-brownfont">
+                                        <h3 className="font-poppinsSemiBold text-2xl text-brownfont pt-5 md:pt-0">
                                             Where does it come from?
                                         </h3>
                                         <p className="font-nunito text-lg">
@@ -58,13 +58,13 @@ function LatestNews() {
                                         </p>
                                     </div>
                                 </div>
-                                <div className="flex items-center space-x-7 cursor-pointer">
+                                <div className="grid md:flex items-center gap-x-7 cursor-pointer">
                                     <img
                                         src="/Images/Home/Rectangle 37.svg"
-                                        className="w-[280px] h-[180px]"
+                                        className="w-full h-full md:w-[280px] md:h-[180px]"
                                     />
                                     <div className="grid space-y-5">
-                                        <h3 className="font-poppinsSemiBold text-2xl text-brownfont">
+                                        <h3 className="font-poppinsSemiBold text-2xl text-brownfont pt-5 md:pt-0">
                                             Where does it come from?
                                         </h3>
                                         <p className="font-nunito text-lg">
