@@ -3,8 +3,8 @@ import Link from "next/link";
 
 function Landingpage() {
     return(
-        <div className="w-full h-full px-16 xl:px-32 2xl:px-52 py-52 bg-cstmyellow">
-            <div className="grid grid-cols-2 gap-x-20 content-center xl:container xl:mx-auto">
+        <div className="w-full h-full px-16 xl:px-32 2xl:px-52 py-32 xl:py-52 bg-cstmyellow">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-4 content-center xl:container xl:mx-auto">
                 <div className="h-full gap-5 2xl:gap-11 content-center grid">
                     <h1 className="font-poppinsBold text-4xl xl:text-5xl 2xl:text-7xl text-black leading-[3.5rem] xl:leading-[4rem] 2xl:leading-[6rem]">
                         <span className="text-brownfont">
@@ -34,7 +34,7 @@ function Landingpage() {
                         </p>
                     </div>
                 </div>
-                <div className="mr-0 grid content-center m-auto">
+                <div className="md:mr-0 grid content-center m-auto w-full sm:w-3/4 md:w-full">
                     <Image
                     src="/Images/Home/kisspng-travel-clip-art-portable-network-graphics-vector-g-viaggi-in-comitiva-faenza-ra-astorre-agenzia-viag-5be4f4439a98f7 1.svg"
                     width={910}
