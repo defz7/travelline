@@ -3,10 +3,10 @@ import Link from "next/link";
 function Tour() {
     return(
         <div className="relative bg-white">
-            <div className="grid h-full xl:py-24 px-16 xl:px-32 2xl:px-52">
-                <div className="h-full justify-items-center content-center">
-                    <div className="lg:flex">
-                        <div className="lg:w-3/4 lg:pr-10 space-y-10">
+            <div className="h-full xl:py-24 px-16 xl:px-32 2xl:px-52">
+                <div className="h-full grid justify-items-center content-center xl:container xl:mx-auto">
+                    <div className="grid lg:flex">
+                        <div className="lg:w-3/4 lg:pr-10 space-y-5 2xl:space-y-10">
                             <h1 className="font-poppinsBold text-black text-2xl 2xl:text-3xl text-center lg:text-left">
                                 <span className="text-brownfont">
                                     Watch
@@ -20,15 +20,15 @@ function Tour() {
                             </p>
                             <Link href="/">
                                 <a className="flex cursor-pointer max-w-[90px]">
-                                    <p className="font-nunito hidden lg:block underline-offset-2 text-base 2xl:text-base text-brownfont">
+                                    <p className="font-nunito hidden lg:block underline-offset-2 underline text-base 2xl:text-base text-brownfont">
                                         Learn more
                                     </p>
                                 </a>
                             </Link>
                         </div>
-                        <div className="w-full grid justify-items-center lg:m-auto">
+                        <div className="w-full grid justify-items-center lg:m-auto pt-5 lg:pt-0">
                             <iframe
-                                className="w-3/4 aspect-video"
+                                className="w-full sm:w-8/12 lg:w-3/4 aspect-video"
                                 src="https://youtube.com"
                                 title="YouTube video player"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
