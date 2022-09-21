@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Footer() {
     return (
-        <div className="relative z-10 bg-[#A7283E] px-10 sm:px-16 py-20 xl:px-32 xl:py-32 2xl:pt-24 2xl:pb-24">
+        <div className="relative z-10 bg-[#A7283E] px-7 sm:px-16 py-20 xl:px-32 xl:py-32 2xl:pt-24 2xl:pb-24">
             <div className="grid justify-items-center content-center">
                 <div className="flex justify-center items-center gap-5 sm:gap-10 pb-10">
                     <img
