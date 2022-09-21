@@ -11,7 +11,7 @@ function Globally() {
                     </span> {""}
                         Accepted
                 </h1>
-                <div className="w-5/6 xl:w-3/4 justify-center">
+                <div className="w-full lg:w-5/6 xl:w-3/4 justify-center">
                     <p className="font-nunito items-center text-black text-base 2xl:text-xl text-center">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -19,9 +19,9 @@ function Globally() {
                     </p>
                 </div>
                 <div className="flex justify-center">
-                    <div className="grid grid-cols-2 gap-20 xl:gap-36">
-                        <Link href="/">
-                            <a className="flex justify-center cursor-pointer">
+                    <div className="grid justify-items-center grid-cols-1 md:grid-cols-2 md:gap-20 xl:gap-36">
+                        <Link href="#!">
+                            <a className="flex justify-center cursor-pointer w-full sm:w-3/4 md:w-full">
                                 <Image 
                                     src="/Images/Home/Group 5432 (1).svg"
                                     width={450}
@@ -29,8 +29,8 @@ function Globally() {
                                 />
                             </a>
                         </Link>
-                        <Link href="/">
-                            <a className="flex justify-center cursor-pointer ">
+                        <Link href="#!">
+                            <a className="flex justify-center cursor-pointer w-full sm:w-3/4 md:w-full">
                                 <Image
                                     src="/Images/Home/Group 5433.svg"
                                     width={450}
