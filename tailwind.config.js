@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'sm': '425px',
+      },
       backgroundImage: {
         'landingpage': "url('/Images/Rectangle 4 (1).png')",
         'button': "url('/Images/Home/Group 4.svg)",
