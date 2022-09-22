@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Promotion() {
     return(
-        <div className="h-full grid bg-white pt-24 xl:py-24 px-16 xl:px-32 2xl:px-52">
+        <div className="h-full grid bg-white pt-14 md:pt-24 xl:py-24 px-7 sm:px-16 xl:px-32 2xl:px-52">
             <div className="grid xl:container xl:mx-auto justify-items-center content-center space-y-10">
                 <h1 className="font-poppinsBold text-black text-2xl 2xl:text-3xl text-center">
                     <span className="text-brownfont">
@@ -52,7 +52,7 @@ function Promotion() {
                         Pakistan
                     </p>
 
-                    {/* Text below for md screen and above */}
+                    {/* Text below is for md screen and above */}
                     <p className="hidden md:flex justify-center text-brownfont font-poppinsMedium text-xl">
                         Beijing
                     </p>
