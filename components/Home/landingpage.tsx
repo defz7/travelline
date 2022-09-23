@@ -4,7 +4,7 @@ import Link from "next/link";
 function Landingpage() {
     return(
         <div className="w-full h-full px-7 sm:px-16 xl:px-32 2xl:px-52 py-24 sm:py-32 xl:py-52 bg-cstmyellow">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-4 content-center xl:container xl:mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-4 content-center xl:container xl:mx-auto" data-aos="fade-up" data-aos-duration="2000">
                 <div className="h-full gap-3 2xl:gap-6 content-center grid">
                     <h1 className="font-poppinsBold text-4xl xl:text-5xl 2xl:text-7xl text-black leading-[2.9rem] xl:leading-[4rem] 2xl:leading-[6rem]">
                         <span className="text-brownfont">
