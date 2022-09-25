@@ -6,7 +6,7 @@ function Tour() {
             <div className="h-full xl:py-24 px-16 xl:px-32 2xl:px-52">
                 <div className="h-full grid justify-items-center content-center xl:container xl:mx-auto">
                     <div className="grid lg:flex">
-                        <div className="lg:w-3/4 lg:pr-10 space-y-5 2xl:space-y-10">
+                        <div className="lg:w-3/4 lg:pr-10 space-y-5 2xl:space-y-10" data-aos="fade-right" data-aos-duration="1500">
                             <h1 className="font-poppinsBold text-black text-2xl 2xl:text-3xl text-center lg:text-left">
                                 <span className="text-brownfont">
                                     Watch
@@ -26,7 +26,7 @@ function Tour() {
                                 </a>
                             </Link>
                         </div>
-                        <div className="w-full grid justify-items-center lg:m-auto pt-5 lg:pt-0">
+                        <div className="w-full grid justify-items-center lg:m-auto pt-5 lg:pt-0" data-aos="fade-left" data-aos-duration="1500">
                             <iframe
                                 className="w-full sm:w-8/12 lg:w-3/4 aspect-video"
                                 src="https://youtube.com"
