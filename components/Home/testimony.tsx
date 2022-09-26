@@ -5,7 +5,7 @@ function Testimony() {
         <div className="w-full h-full bg-white">
             <div className="grid py-24 px-16 xl:px-32 2xl:px-52">
                 <div className="grid xl:grid-cols-2 gap-10 xl:container xl:mx-auto">
-                    <div className="lg:max-w-lg 2xl:max-w-xl space-y-5">
+                    <div className="lg:max-w-lg 2xl:max-w-xl space-y-5" data-aos="fade-right" data-aos-duration="1500">
                         <div className="flex items-center">
                             <div className="border border-[#2C2D32] w-[50px] h-0 mr-3"></div>
                             <p className="font-nunito uppercase">
@@ -28,7 +28,7 @@ function Testimony() {
                             </div>
                         </button>
                     </div>
-                    <div className="grid content-center justify-items-center">
+                    <div className="grid content-center justify-items-center" data-aos="fade-left" data-aos-duration="1500">
                         <div className="flex items-center p-8 pb-3 rounded-2xl shadow-lg bg-gray-100 max-w-xl">
                             <div className="grid content-center">
                                 <p className="font-nunitoBold max-w-xs">
