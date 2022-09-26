@@ -17,7 +17,7 @@ function ChooseUs() {
                             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                         </p>
                     </div> 
-                    <div className="flex flex-wrap justify-center gap-[60px]">
+                    <div className="flex flex-wrap justify-center gap-[60px]" data-aos="fade-up" data-aos-duration="1500">
                         <div className="p-6 overflow-hidden rounded-lg shadow-lg bg-white max-w-sm">
                             <div className="-mt-16 w-full flex justify-center">
                                 <img
