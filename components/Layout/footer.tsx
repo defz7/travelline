@@ -29,15 +29,15 @@ function Footer() {
                     </div>
                 </div>
                 <div className="flex flex-wrap justify-center items-center gap-y-4 gap-x-6 pt-24">
-                    <p className="font-nunito text-[#F0C53E]">
+                    <p className="font-nunito text-[#F0C53E] hover:text-white">
                         <a href="#!">Careers</a>
                     </p>
                     <div className="hidden sm:block border h-1/3 sm:h-full border-[#762432]"></div>
-                    <p className="font-nunito text-[#F0C53E]">
+                    <p className="font-nunito text-[#F0C53E] hover:text-white">
                         <a href="#!">Privacy Policy</a>
                     </p>
                     <div className="hidden sm:block border h-1/3 sm:h-full border-[#762432]"></div>
-                    <p className="font-nunito text-[#F0C53E]">
+                    <p className="font-nunito text-[#F0C53E] hover:text-white">
                         <a href="#!">Terms & Conditions</a>
                     </p>
                 </div>
