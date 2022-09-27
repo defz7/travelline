@@ -3,7 +3,7 @@ import Link from "next/link";
 function Tour() {
     return(
         <div className="relative bg-white">
-            <div className="h-full xl:py-24 px-16 xl:px-32 2xl:px-52">
+            <div className="h-full xl:py-24 px-7 sm:px-16 xl:px-32 2xl:px-52">
                 <div className="h-full grid justify-items-center content-center xl:container xl:mx-auto">
                     <div className="grid lg:flex">
                         <div className="lg:w-3/4 lg:pr-10 space-y-5 2xl:space-y-10" data-aos="fade-right" data-aos-duration="1500">
