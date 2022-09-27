@@ -3,7 +3,7 @@ import { ArrowLongRightIcon } from '@heroicons/react/24/outline';
 function Testimony() {
     return(
         <div className="w-full h-full bg-white">
-            <div className="grid py-24 px-16 xl:px-32 2xl:px-52">
+            <div className="grid py-24 px-7 sm:px-16 xl:px-32 2xl:px-52">
                 <div className="grid xl:grid-cols-2 gap-10 xl:container xl:mx-auto">
                     <div className="lg:max-w-lg 2xl:max-w-xl space-y-5" data-aos="fade-right" data-aos-duration="1500">
                         <div className="flex items-center">

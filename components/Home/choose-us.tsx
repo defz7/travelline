@@ -2,7 +2,7 @@
 function ChooseUs() {
     return(
         <div className="relative bg-white">
-            <div className="grid h-full xl:py-24 px-16 xl:px-32 2xl:px-52">
+            <div className="grid h-full xl:py-24 px-7 sm:px-16 xl:px-32 2xl:px-52">
                 <div className="grid justify-items-center content-center space-y-10" data-aos="fade-up" data-aos-duration="1500">
                     <h1 className="font-poppinsBold text-black text-2xl 2xl:text-3xl text-center">
                         <span className="text-brownfont">
