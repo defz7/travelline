@@ -16,14 +16,15 @@ function LatestNews() {
                                     src="/Images/Home/Group 40 (1).svg"
                                     className="w-[640px]"
                                 />
-                                <div className="flex justify-center bg-[#F0C53E] w-[100px] py-1 rounded-full font-nunitoBold text-base uppercase">
+                                <div className="flex justify-center bg-[#F0C53E] w-[93px] py-1 rounded-full font-nunitoBold text-sm uppercase">
                                     News
                                 </div>
                                 <h3 className="font-poppinsSemiBold text-2xl text-brownfont">
                                     Where does it come from?
                                 </h3>
                                 <p className="font-nunito text-lg">
-                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, 
+                                    making it over 2000 years old.
                                 </p>
                                 <a className="font-nunito text-lg text-[#EE5060] underline cursor-pointer">
                                     Read more
@@ -35,12 +36,16 @@ function LatestNews() {
                                         src="/Images/Home/Rectangle 33 (1).svg"
                                         className="w-full h-full md:w-[280px] md:h-[180px]"
                                     />
+                                    <div className="absolute bg-[#F0C53E] px-3 py-1 mt-44 md:mt-32 ml-6 md:ml-[107px] rounded-full font-nunitoBold text-sm uppercase text-center">
+                                        Press Release
+                                    </div>
                                     <div className="grid space-y-5">
                                         <h3 className="font-poppinsSemiBold text-2xl text-brownfont pt-5 md:pt-0">
                                             Where does it come from?
                                         </h3>
                                         <p className="font-nunito text-lg">
-                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, 
+                                            making it over 2000 years old.
                                         </p>
                                     </div>
                                 </div>
@@ -49,12 +54,16 @@ function LatestNews() {
                                         src="/Images/Home/Rectangle 34.svg"
                                         className="w-full h-full md:w-[280px] md:h-[180px]"
                                     />
+                                    <div className="absolute bg-[#F0C53E] px-5 py-1 mt-44 md:mt-32 ml-6 md:ml-40 rounded-full font-nunitoBold text-sm uppercase text-center">
+                                        News
+                                    </div>
                                     <div className="grid space-y-5">
                                         <h3 className="font-poppinsSemiBold text-2xl text-brownfont pt-5 md:pt-0">
                                             Where does it come from?
                                         </h3>
                                         <p className="font-nunito text-lg">
-                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, 
+                                            making it over 2000 years old.
                                         </p>
                                     </div>
                                 </div>
@@ -63,12 +72,16 @@ function LatestNews() {
                                         src="/Images/Home/Rectangle 37.svg"
                                         className="w-full h-full md:w-[280px] md:h-[180px]"
                                     />
+                                    <div className="absolute bg-[#F0C53E] px-5 py-1 mt-44 md:mt-32 ml-6 md:ml-40 rounded-full font-nunitoBold text-sm uppercase text-center">
+                                        News
+                                    </div>
                                     <div className="grid space-y-5">
                                         <h3 className="font-poppinsSemiBold text-2xl text-brownfont pt-5 md:pt-0">
                                             Where does it come from?
                                         </h3>
                                         <p className="font-nunito text-lg">
-                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, 
+                                            making it over 2000 years old.
                                         </p>
                                     </div>
                                 </div>
