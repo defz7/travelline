@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 function Navbar() {
-    const styleTextNav="font-poppinsRegular text-sm sm:text-base md:text-base xl:text-xl cursor-pointer text-black hover:text-green px-3 py-2"
+    const styleTextNav="font-poppinsRegular text-sm sm:text-base md:text-base xl:text-lg cursor-pointer text-black hover:text-green px-3 py-2"
 	
 	return (
 		<div>

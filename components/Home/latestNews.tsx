@@ -16,6 +16,7 @@ function LatestNews() {
                                     src="/Images/Home/Group 40 (1).svg"
                                     className="w-[640px]"
                                 />
+                                {/* subTitle */}
                                 <div className="flex justify-center bg-[#F0C53E] w-[93px] py-1 rounded-full font-nunitoBold text-sm uppercase">
                                     News
                                 </div>
@@ -36,6 +37,7 @@ function LatestNews() {
                                         src="/Images/Home/Rectangle 33 (1).svg"
                                         className="w-full h-full md:w-[280px] md:h-[180px]"
                                     />
+                                    {/* subTitle */}
                                     <div className="absolute bg-[#F0C53E] px-3 py-1 mt-44 md:mt-32 ml-6 md:ml-[107px] rounded-full font-nunitoBold text-sm uppercase text-center">
                                         Press Release
                                     </div>
@@ -54,6 +56,7 @@ function LatestNews() {
                                         src="/Images/Home/Rectangle 34.svg"
                                         className="w-full h-full md:w-[280px] md:h-[180px]"
                                     />
+                                    {/* subTitle */}
                                     <div className="absolute bg-[#F0C53E] px-5 py-1 mt-44 md:mt-32 ml-6 md:ml-40 rounded-full font-nunitoBold text-sm uppercase text-center">
                                         News
                                     </div>
@@ -72,6 +75,7 @@ function LatestNews() {
                                         src="/Images/Home/Rectangle 37.svg"
                                         className="w-full h-full md:w-[280px] md:h-[180px]"
                                     />
+                                    {/* subTitle */}
                                     <div className="absolute bg-[#F0C53E] px-5 py-1 mt-44 md:mt-32 ml-6 md:ml-40 rounded-full font-nunitoBold text-sm uppercase text-center">
                                         News
                                     </div>
