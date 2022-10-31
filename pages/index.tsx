@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Head from 'next/head'
 import { Landingpage } from '../components/Home/landingpage';
 import { Promotion } from '../components/Home/promotion';
 import { Globally } from '../components/Home/globally';
@@ -13,6 +14,10 @@ import { Navbar } from '../components/Layout/navbar';
 const Home: NextPage = () => {
   return (
     <>
+      <Head>
+        <title>Travelline</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Navbar />
       <Landingpage/>
       <Promotion/>
