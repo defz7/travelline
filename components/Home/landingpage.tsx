@@ -4,7 +4,11 @@ import Link from "next/link";
 function Landingpage() {
     return(
         <div className="w-full h-full px-7 sm:px-16 xl:px-32 2xl:px-52 py-24 sm:py-32 xl:py-52 bg-cstmyellow">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-4 content-center xl:container xl:mx-auto" data-aos="fade-up" data-aos-duration="2000">
+            <div 
+                className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-4 content-center xl:container xl:mx-auto" 
+                data-aos="fade-up" 
+                data-aos-duration="2000"
+            >
                 <div className="h-full gap-3 2xl:gap-6 content-center grid">
                     <h1 className="font-poppinsBold text-4xl xl:text-5xl 2xl:text-7xl text-black leading-[2.9rem] xl:leading-[4rem] 2xl:leading-[6rem]">
                         <span className="text-brownfont">
@@ -24,8 +28,8 @@ function Landingpage() {
                         <Link href="/">
                             <a className="hidden flex justify-center items-center self-center">
                                 <img
-                                src="/Images/Home/Group 4.svg"
-                                className="w-1/2"
+                                    src="/Images/Home/Group 4.svg"
+                                    className="w-1/2"
                                 />
                             </a>
                         </Link>
@@ -36,16 +40,16 @@ function Landingpage() {
                 </div>
                 <div className="md:mr-0 grid content-center m-auto w-full sm:w-3/4 md:w-full">
                     <Image
-                    src="/Images/Home/kisspng-travel-clip-art-portable-network-graphics-vector-g-viaggi-in-comitiva-faenza-ra-astorre-agenzia-viag-5be4f4439a98f7 1.svg"
-                    width={910}
-                    height={745}
+                        src="/Images/Home/kisspng-travel-clip-art-portable-network-graphics-vector-g-viaggi-in-comitiva-faenza-ra-astorre-agenzia-viag-5be4f4439a98f7 1.svg"
+                        width={910}
+                        height={745}
                     />
                     <Link href="/">
-                        <a className=" hidden flex w-64 bg-white bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-50 rounded-xl p-6 z-10">
+                        <a className="hidden flex w-64 bg-white bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-50 rounded-xl p-6 z-10">
                             <Image
-                            src="/Images/Home/Group 6.svg"
-                            width={40}
-                            height={40}
+                                src="/Images/Home/Group 6.svg"
+                                width={40}
+                                height={40}
                             />
                             <div className="text-left ml-5">
                                 <p className="text-lightfont font-bold">
