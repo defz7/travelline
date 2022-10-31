@@ -3,9 +3,9 @@ import Head from 'next/head'
 import { Landingpage } from '../components/Home/landingpage';
 import { Promotion } from '../components/Home/promotion';
 import { Globally } from '../components/Home/globally';
-import { Tour } from '../components/Home/tour-video';
+import { Tour } from '../components/Home/tour';
 import { Team } from '../components/Home/team';
-import { ChooseUs } from '../components/Home/choose-us';
+import { ChooseUs } from '../components/Home/chooseUs';
 import { Testimony } from '../components/Home/testimony';
 import { Footer } from '../components/Layout/footer';
 import { LatestNews } from '../components/Home/latestNews';
