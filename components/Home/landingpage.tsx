@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import CoverImg from "../../public/images/Home/Group 6.svg";
+
 function Landingpage() {
     return(
         <div className="w-full h-full px-7 sm:px-16 xl:px-32 2xl:px-52 py-24 sm:py-32 xl:py-52 bg-cstmyellow">
@@ -47,7 +49,7 @@ function Landingpage() {
                     <Link href="/">
                         <a className="hidden flex w-64 bg-white bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-50 rounded-xl p-6 z-10">
                             <Image
-                                src="/Images/Home/Group 6.svg"
+                                src={CoverImg.src}
                                 width={40}
                                 height={40}
                             />

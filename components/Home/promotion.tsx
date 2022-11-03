@@ -3,9 +3,11 @@ import BeijingImg from "../../public/images/Home/Beijing.png";
 import TurkeyImg from "../../public/images/Home/Turkey.png";
 import PakistanImg from "../../public/images/Home/Pakistan.png";
 
-const desc = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+const description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
 const styleImg = "w-3/4 pb-8"
-const styleCountry = "grid md:hidden pb-5 md:pb-0 justify-center text-brownfont font-poppinsMedium text-xl"
+const styleDestination = "flex justify-center cursor-pointer"
+const styleCountryMobile = "grid md:hidden pb-5 md:pb-0 justify-center text-brownfont font-poppinsMedium text-xl"
+const styleCountry = "hidden md:flex justify-center text-brownfont font-poppinsMedium text-xl"
 
 function Promotion() {
     return(
@@ -27,7 +29,7 @@ function Promotion() {
                         data-aos="fade-up"
                         data-aos-duration="1500"
                     >
-                        {desc}
+                        {description}
                     </p>
                 </div>
                 <div 
@@ -36,47 +38,47 @@ function Promotion() {
                     data-aos-duration="2000"
                 >
                     <Link href="/">
-                        <a className="flex justify-center cursor-pointer">
+                        <a className={styleDestination}>
                             <img
                                 src={BeijingImg.src}
                                 className={styleImg}
                             />
                         </a>
                     </Link>
-                    <p className={styleCountry}>
+                    <p className={styleCountryMobile}>
                         Beijing
                     </p>
                     <Link href="/">
-                        <a className="flex justify-center cursor-pointer ">
+                        <a className={styleDestination}>
                             <img
                                 src={TurkeyImg.src}
                                 className={styleImg}
                             />
                         </a>
                     </Link>
-                    <p className={styleCountry}>
+                    <p className={styleCountryMobile}>
                         Turkey
                     </p>
                     <Link href="/">
-                        <a className="flex justify-center cursor-pointer ">
+                        <a className={styleDestination}>
                             <img
                                 src={PakistanImg.src}
                                 className={styleImg}
                             />
                         </a>
                     </Link>
-                    <p className={styleCountry}>
+                    <p className={styleCountryMobile}>
                         Pakistan
                     </p>
 
                     {/* Text below is for md screen and above */}
-                    <p className="hidden md:flex justify-center text-brownfont font-poppinsMedium text-xl">
+                    <p className={styleCountry}>
                         Beijing
                     </p>
-                    <p className="hidden md:flex justify-center text-brownfont font-poppinsMedium text-xl">
+                    <p className={styleCountry}>
                         Turkey
                     </p>
-                    <p className="hidden md:flex justify-center text-brownfont font-poppinsMedium text-xl">
+                    <p className={styleCountry}>
                         Pakistan
                     </p>
                 </div>
