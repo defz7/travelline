@@ -3,7 +3,11 @@ function ChooseUs() {
     return(
         <div className="relative bg-white">
             <div className="grid h-full xl:py-24 px-7 sm:px-16 xl:px-32 2xl:px-52">
-                <div className="grid justify-items-center content-center space-y-10" data-aos="fade-up" data-aos-duration="1500">
+                <div 
+                    className="grid justify-items-center content-center space-y-10" 
+                    data-aos="fade-up" 
+                    data-aos-duration="1500"
+                >
                     <h1 className="font-poppinsBold text-black text-2xl 2xl:text-3xl text-center">
                         <span className="text-brownfont">
                             Why
@@ -17,12 +21,17 @@ function ChooseUs() {
                             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                         </p>
                     </div> 
-                    <div className="flex flex-wrap justify-center gap-[90px] 2xl:gap-[60px]" data-aos="fade-up" data-aos-duration="1500">
+                    <div 
+                        className="flex flex-wrap justify-center gap-[90px] 2xl:gap-[60px]" 
+                        data-aos="fade-up" 
+                        data-aos-duration="1500"
+                    >
                         <div className="p-6 overflow-hidden rounded-lg shadow-lg bg-white max-w-sm">
                             <div className="-mt-16 w-full flex justify-center">
                                 <img
                                     src="/Images/Home/Group 5436.svg"
                                     className="grid justify-self-center z-10 w-[100px] h-[100px] absolute"
+                                    alt=""
                                 />
                             </div>
                             <p className="font-poppinsSemiBold text-center text-xl pb-4 pt-24 px-3 text-brownfont">
@@ -37,6 +46,7 @@ function ChooseUs() {
                                 <img
                                     src="/Images/Home/Group 5437.svg"
                                     className="grid justify-self-center z-10 w-[100px] h-[100px] absolute"
+                                    alt=""
                                 />
                             </div>
                             <p className="font-poppinsSemiBold text-center text-xl pb-4 pt-24 px-3 text-brownfont">
@@ -51,6 +61,7 @@ function ChooseUs() {
                                 <img
                                     src="/Images/Home/Group 5438.svg"
                                     className="grid justify-self-center z-10 w-[100px] h-[100px] absolute"
+                                    alt=""
                                 />
                             </div>
                             <p className="font-poppinsSemiBold text-center text-xl pb-4 pt-24 px-3 text-brownfont">
