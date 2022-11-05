@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import Logo from "../../public/Images/Home/Group 5421 (1).svg";
+
 const styleTextNav="font-poppinsRegular text-sm sm:text-base md:text-base xl:text-lg cursor-pointer text-black hover:text-white px-3 py-2"
 
 function Navbar() {
@@ -21,8 +23,9 @@ function Navbar() {
 								<Link href="/">
 									<img
 										loading="lazy"
-										src="/Images/Home/Group 5421 (1).svg"
+										src={Logo.src}
 										className="w-[65px] md:w-[80px] lg:w-[100px] xl:w-[150px] cursor-pointer"
+										alt="Travelline logo"
 									/>
 								</Link>
 							</div>
@@ -65,6 +68,7 @@ function Navbar() {
                                         <img
                                             src="/Images/Home/Vector (1).svg"
                                             className="hidden lg:block w-[16px] xl:w-[20px] cursor-pointer"
+											alt="Telephone"
                                         />
 										<p>
 											+1 (000) 000 000

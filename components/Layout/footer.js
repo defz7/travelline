@@ -1,13 +1,15 @@
 
+import Logo from "../../public/Images/Home/Group 5421.svg";
+
 function Footer() {
     return (
         <footer className="relative z-10 bg-[#A7283E] px-7 sm:px-16 py-20 xl:px-32 xl:py-32 2xl:pt-24 2xl:pb-24">
             <div className="grid justify-items-center content-center">
                 <div className="flex justify-center items-center gap-5 sm:gap-10 pb-10">
                     <img
-                        src="/Images/Home/Group 5421.svg"
+                        src={Logo.src}
                         className="w-[120px] sm:w-[150px] md:w-[208px] cursor-pointer"
-                        alt="Lalasia logo"
+                        alt="Travelline logo"
                     />
                     <div className="font-montserratBold max-w-[156px] text-lg sm:text-xl text-white">
                         <p>
