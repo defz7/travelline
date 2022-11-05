@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 const description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+import DomesticImg from "../../public/Images/Home/Group 5432 (1).svg";
+import InternationalImg from "../../public/Images/Home/Group 5433.svg";
 
 function Globally() {
     return(
@@ -35,18 +37,20 @@ function Globally() {
                         <Link href="#!">
                             <a className="flex justify-center cursor-pointer w-full sm:w-3/4 md:w-full">
                                 <Image 
-                                    src="/Images/Home/Group 5432 (1).svg"
+                                    src={DomesticImg.src}
                                     width={450}
                                     height={430}
+                                    alt="Domestic travel"
                                 />
                             </a>
                         </Link>
                         <Link href="#!">
                             <a className="flex justify-center cursor-pointer w-full sm:w-3/4 md:w-full">
                                 <Image
-                                    src="/Images/Home/Group 5433.svg"
+                                    src={InternationalImg.src}
                                     width={450}
                                     height={430}
+                                    alt="International travel"
                                 />
                             </a>
                         </Link>

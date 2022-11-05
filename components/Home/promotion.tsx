@@ -1,7 +1,7 @@
 import Link from "next/link";
-import BeijingImg from "../../public/images/Home/Beijing.png";
-import TurkeyImg from "../../public/images/Home/Turkey.png";
-import PakistanImg from "../../public/images/Home/Pakistan.png";
+import BeijingImg from "../../public/Images/Home/Beijing.png";
+import TurkeyImg from "../../public/Images/Home/Turkey.png";
+import PakistanImg from "../../public/Images/Home/Pakistan.png";
 
 const description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
 const styleImg = "w-3/4 pb-8"
@@ -42,6 +42,7 @@ function Promotion() {
                             <img
                                 src={BeijingImg.src}
                                 className={styleImg}
+                                alt="Beijing"
                             />
                         </a>
                     </Link>
@@ -53,6 +54,7 @@ function Promotion() {
                             <img
                                 src={TurkeyImg.src}
                                 className={styleImg}
+                                alt="Turkey"
                             />
                         </a>
                     </Link>
@@ -64,6 +66,7 @@ function Promotion() {
                             <img
                                 src={PakistanImg.src}
                                 className={styleImg}
+                                alt="Pakistan"
                             />
                         </a>
                     </Link>

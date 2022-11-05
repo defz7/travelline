@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import CoverImg from "../../public/images/Home/Group 6.svg";
+import CoverImg from "../../public/Images/Home/kisspng-travel-clip-art-portable-network-graphics-vector-g-viaggi-in-comitiva-faenza-ra-astorre-agenzia-viag-5be4f4439a98f7 1.svg";
 
 function Landingpage() {
     return(
@@ -42,14 +42,15 @@ function Landingpage() {
                 </div>
                 <div className="md:mr-0 grid content-center m-auto w-full sm:w-3/4 md:w-full">
                     <Image
-                        src="/Images/Home/kisspng-travel-clip-art-portable-network-graphics-vector-g-viaggi-in-comitiva-faenza-ra-astorre-agenzia-viag-5be4f4439a98f7 1.svg"
+                        src={CoverImg.src}
                         width={910}
                         height={745}
+                        alt="Travel clip art"
                     />
                     <Link href="/">
                         <a className="hidden flex w-64 bg-white bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-50 rounded-xl p-6 z-10">
                             <Image
-                                src={CoverImg.src}
+                                src="/Images/Home/Group 6.svg"
                                 width={40}
                                 height={40}
                             />
