@@ -42,6 +42,7 @@ function Promotion() {
                             <img
                                 src={BeijingImg.src}
                                 className={styleImg}
+                                loading="lazy"
                                 alt="Beijing"
                             />
                         </a>
@@ -54,6 +55,7 @@ function Promotion() {
                             <img
                                 src={TurkeyImg.src}
                                 className={styleImg}
+                                loading="lazy"
                                 alt="Turkey"
                             />
                         </a>
@@ -66,6 +68,7 @@ function Promotion() {
                             <img
                                 src={PakistanImg.src}
                                 className={styleImg}
+                                loading="lazy"
                                 alt="Pakistan"
                             />
                         </a>

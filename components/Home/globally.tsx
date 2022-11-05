@@ -40,6 +40,7 @@ function Globally() {
                                     src={DomesticImg.src}
                                     width={450}
                                     height={430}
+                                    loading="lazy"
                                     alt="Domestic travel"
                                 />
                             </a>
@@ -50,6 +51,7 @@ function Globally() {
                                     src={InternationalImg.src}
                                     width={450}
                                     height={430}
+                                    loading="lazy"
                                     alt="International travel"
                                 />
                             </a>

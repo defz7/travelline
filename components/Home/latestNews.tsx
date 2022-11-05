@@ -23,6 +23,7 @@ function LatestNews() {
                                 <img
                                     src="/Images/Home/Group 40 (1).svg"
                                     className="w-[640px]"
+                                    loading="lazy"
                                     alt=""
                                 />
                                 {/* subTitle */}
@@ -45,6 +46,7 @@ function LatestNews() {
                                     <img
                                         src="/Images/Home/Rectangle 33 (1).svg"
                                         className="w-full h-full md:w-[280px] md:h-[180px]"
+                                        loading="lazy"
                                         alt=""
                                     />
                                     {/* subTitle */}
@@ -65,6 +67,7 @@ function LatestNews() {
                                     <img
                                         src="/Images/Home/Rectangle 34.svg"
                                         className="w-full h-full md:w-[280px] md:h-[180px]"
+                                        loading="lazy"
                                         alt=""
                                     />
                                     {/* subTitle */}
@@ -85,6 +88,7 @@ function LatestNews() {
                                     <img
                                         src="/Images/Home/Rectangle 37.svg"
                                         className="w-full h-full md:w-[280px] md:h-[180px]"
+                                        loading="lazy"
                                         alt=""
                                     />
                                     {/* subTitle */}

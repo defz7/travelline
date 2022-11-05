@@ -35,6 +35,7 @@ function Team() {
                             data-aos-duration="1500"
                             src={OurTeamImg.src}
                             className="w-10/12 justify-self-center"
+                            loading="lazy"
                             alt="Some pictures of our team"
                         />
                         <div 

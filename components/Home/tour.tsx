@@ -38,10 +38,12 @@ function Tour() {
                             <iframe
                                 className="w-full sm:w-8/12 lg:w-3/4 aspect-video"
                                 src="https://youtube.com"
+                                loading="lazy"
                                 title="YouTube video player"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen
-                            ></iframe>
+                            > 
+                            </iframe>
                         </div>
                     </div>
                 </div>
