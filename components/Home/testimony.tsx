@@ -1,5 +1,7 @@
 import { ArrowLongRightIcon } from '@heroicons/react/24/outline';
 
+import Person1 from "../../public/Images/Home/Group 5436.svg";
+
 function Testimony() {
     return(
         <div className="w-full h-full bg-white">
@@ -44,8 +46,9 @@ function Testimony() {
                                 </p>
                                 <div className="flex items-center justify-center">
                                     <img
-                                        src="/Images/Home/Group 5436.svg"
+                                        src={Person1.src}
                                         className="mt-3 -ml-2 w-[100=px] h-[100px]"
+                                        loading="lazy"
                                         alt="profile picture"
                                     />
                                     <div className="grid">

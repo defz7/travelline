@@ -55,6 +55,7 @@ function Team() {
                                     <img
                                         src={TeamIcon.src}
                                         className="w-13 2xl:w-24 2xl:h-24 h-20"
+                                        loading="lazy"
                                         alt="The team"
                                     />
                                     <p className="font-nunito self-center text-base 2xl:text-xl">
@@ -66,6 +67,7 @@ function Team() {
                                     <img
                                         src={StructureIcon.src}
                                         className="w-13 2xl:w-24 2xl:h-24 h-20"
+                                        loading="lazy"
                                         alt="Team structure"
                                     />
                                     <p className="font-nunito self-center text-base 2xl:text-xl">

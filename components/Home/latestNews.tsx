@@ -1,3 +1,9 @@
+
+import News1 from "../../public/Images/Home/Group 40 (1).svg";
+import News2 from "../../public/Images/Home/Rectangle 33 (1).svg";
+import News3 from "../../public/Images/Home/Rectangle 34.svg";
+import News4 from "../../public/Images/Home/Rectangle 37.svg";
+
 function LatestNews() {
     return(
         <div className="w-full h-full bg-white">
@@ -21,7 +27,7 @@ function LatestNews() {
                         >
                             <div className="grid space-y-5 cursor-pointer">
                                 <img
-                                    src="/Images/Home/Group 40 (1).svg"
+                                    src={News1.src}
                                     className="w-[640px]"
                                     loading="lazy"
                                     alt=""
@@ -44,7 +50,7 @@ function LatestNews() {
                             <div className="grid justify-items-center space-y-14 md:space-y-10">
                                 <div className="grid md:flex items-center gap-x-7 cursor-pointer">
                                     <img
-                                        src="/Images/Home/Rectangle 33 (1).svg"
+                                        src={News2.src}
                                         className="w-full h-full md:w-[280px] md:h-[180px]"
                                         loading="lazy"
                                         alt=""
@@ -65,7 +71,7 @@ function LatestNews() {
                                 </div>
                                 <div className="grid md:flex items-center gap-x-7 cursor-pointer">
                                     <img
-                                        src="/Images/Home/Rectangle 34.svg"
+                                        src={News3.src}
                                         className="w-full h-full md:w-[280px] md:h-[180px]"
                                         loading="lazy"
                                         alt=""
@@ -86,7 +92,7 @@ function LatestNews() {
                                 </div>
                                 <div className="grid md:flex items-center gap-x-7 cursor-pointer">
                                     <img
-                                        src="/Images/Home/Rectangle 37.svg"
+                                        src={News4.src}
                                         className="w-full h-full md:w-[280px] md:h-[180px]"
                                         loading="lazy"
                                         alt=""

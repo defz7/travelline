@@ -1,4 +1,10 @@
 
+import StarIcon from "../../public/Images/Home/Group 5436.svg";
+import WorldIcon from "../../public/Images/Home/Group 5437.svg";
+import ThumbUpIcon from "../../public/Images/Home/Group 5438.svg";
+
+const description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+
 function ChooseUs() {
     return(
         <div className="relative bg-white">
@@ -16,9 +22,7 @@ function ChooseUs() {
                     </h1>
                     <div className="w-5/6 xl:w-3/4 justify-center">
                         <p className="font-nunito items-center text-black text-base 2xl:text-xl text-center mb-10 xl:mb-20">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            {description}
                         </p>
                     </div> 
                     <div 
@@ -29,7 +33,7 @@ function ChooseUs() {
                         <div className="p-6 overflow-hidden rounded-lg shadow-lg bg-white max-w-sm">
                             <div className="-mt-16 w-full flex justify-center">
                                 <img
-                                    src="/Images/Home/Group 5436.svg"
+                                    src={StarIcon.src}
                                     className="grid justify-self-center z-10 w-[100px] h-[100px] absolute"
                                     alt=""
                                 />
@@ -44,7 +48,7 @@ function ChooseUs() {
                         <div className="p-6 rounded-lg shadow-lg bg-white max-w-sm">
                             <div className="-mt-16 w-full flex justify-center">
                                 <img
-                                    src="/Images/Home/Group 5437.svg"
+                                    src={WorldIcon.src}
                                     className="grid justify-self-center z-10 w-[100px] h-[100px] absolute"
                                     alt=""
                                 />
@@ -59,7 +63,7 @@ function ChooseUs() {
                         <div className="p-6 rounded-lg shadow-lg bg-white max-w-sm">
                             <div className="-mt-16 w-full flex justify-center">
                                 <img
-                                    src="/Images/Home/Group 5438.svg"
+                                    src={ThumbUpIcon.src}
                                     className="grid justify-self-center z-10 w-[100px] h-[100px] absolute"
                                     alt=""
                                 />
