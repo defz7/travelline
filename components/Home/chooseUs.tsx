@@ -1,4 +1,3 @@
-
 import StarIcon from "../../public/Images/Home/Group 5436.svg";
 import WorldIcon from "../../public/Images/Home/Group 5437.svg";
 import ThumbUpIcon from "../../public/Images/Home/Group 5438.svg";

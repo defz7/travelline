@@ -1,4 +1,3 @@
-
 import OurTeamImg from "../../public/Images/Group 5411.png";
 import TeamIcon from "../../public/Images/Group 5435.png";
 import StructureIcon from "../../public/Images/Group 5434.png";

@@ -1,4 +1,3 @@
-
 import News1 from "../../public/Images/Home/Group 40 (1).svg";
 import News2 from "../../public/Images/Home/Rectangle 33 (1).svg";
 import News3 from "../../public/Images/Home/Rectangle 34.svg";
