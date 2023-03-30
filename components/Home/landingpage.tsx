@@ -4,24 +4,24 @@ import CoverImg from "../../public/Images/Home/kisspng-travel-clip-art-portable-
 
 function Landingpage() {
   return (
-    <div className="min-h-[60vh] lg:min-h-[70vh] xl:min-h-screen grid justify-items-center content-center bg-cstmyellow">
-      <div className="px-7 sm:px-16 xl:px-32 2xl:px-52 py-24 sm:py-28 xl:py-48 m-auto">
+    <div className="min-h-[60vh] md:min-h-[50vh] lg:min-h-[70vh] xl:min-h-screen grid justify-items-center content-center bg-cstmyellow">
+      <div className="px-7 sm:px-16 xl:px-32 2xl:px-28 py-24 sm:py-28 xl:py-48 m-auto xl:container">
         <div
-          className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-4 content-center xl:container xl:mx-auto"
+          className="lg:max-w-[900px] xl:max-w-none grid grid-cols-1 md:grid-cols-2 xl:gap-x-20 2xl:gap-x-28 gap-y-4 content-center xl:container xl:mx-auto"
           data-aos="fade-up"
           data-aos-duration="2000"
         >
-          <div className="h-full gap-3 2xl:gap-4 content-center grid">
-            <h1 className="font-poppinsBold text-[32px] md:text-4xl xl:text-5xl 2xl:text-7xl text-black leading-[2.6rem] md:leading-[2.9rem] xl:leading-[4rem] 2xl:leading-[5.6rem]">
+          <div className="h-full gap-3 2xl:gap-1 content-center grid">
+            <h1 className="font-poppinsBold text-[32px] md:text-4xl xl:text-5xl 2xl:text-6xl text-black leading-[2.6rem] md:leading-[2.9rem] xl:leading-[4rem] 2xl:leading-[5rem]">
               <span className="text-brownfont">Life is a journey</span>, not a
               destination
             </h1>
-            <p className="font-nunitoSemi text-[14px] xl:text-[16px] 2xl:text-2xl text-black">
+            <p className="font-nunitoSemi text-[14px] xl:text-[16px] 2xl:text-[22px] text-black">
               Let's start your journey with us, your dream will come true
             </p>
-            <div className="flex gap-5 2xl:pt-2">
+            <div className="flex gap-5 2xl:pt-3">
               <Link href="/">
-                <a className="font-nunitoSemi flex justify-center items-center w-36 xl:w-48 2xl:w-60 cursor-pointer text-white border-white bg-cstmdarkbrown hover:bg-cstmdarkerbrown hover:scale-110 duration-300 py-2 xl:py-3 rounded-[80px] text-xs xl:text-[16px] 2xl:text-xl">
+                <a className="font-nunitoSemi flex justify-center items-center w-36 xl:w-48 2xl:w-60 cursor-pointer text-white border-white bg-cstmdarkbrown hover:bg-cstmdarkerbrown hover:scale-110 duration-300 py-2 xl:py-3 2xl:py-4 rounded-[80px] text-xs xl:text-[16px] 2xl:text-[19px]">
                   Explore Destinations
                 </a>
               </Link>
@@ -35,7 +35,7 @@ function Landingpage() {
               </p>
             </div>
           </div>
-          <div className="md:mr-0 grid content-center m-auto w-full sm:max-w-[330px] md:w-full">
+          <div className="md:mr-0 grid content-center m-auto w-full sm:max-w-[330px] md:max-w-[390px] lg:max-w-[400px] xl:max-w-[500px] 2xl:max-w-[700px]">
             <Image
               src={CoverImg.src}
               width={910}
