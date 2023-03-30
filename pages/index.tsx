@@ -18,16 +18,18 @@ const Home: NextPage = () => {
         <title>Travelline</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <Navbar />
-      <Landingpage/>
-      <Promotion/>
-      <Globally/>
-      <Tour/>
-      <Team/>
-      <ChooseUs/>
-      <Testimony/>
-      <LatestNews />
-      <Footer/>
+      <div className="overflow-hidden">
+        <Navbar />
+        <Landingpage />
+        <Promotion />
+        <Globally />
+        <Tour />
+        <Team />
+        <ChooseUs />
+        <Testimony />
+        <LatestNews />
+        <Footer />
+      </div>
     </>
   );
 };
